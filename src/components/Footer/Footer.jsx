@@ -16,8 +16,10 @@ const Footer = () => {
           <div className="space-y-3">
             <h2 className="text-3xl font-bold">Anggi Juhniawan</h2>
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam,
-              quos.
+              Welcome to my portfolio! I am a web developer focused on creating
+              engaging and functional user experiences. With expertise in a
+              variety of technologies, I am committed to providing innovative
+              and high-quality solutions. Thanks for visiting!
             </p>
           </div>
           <div className="flex items-center text-4xl gap-3 lg:gap-10 hover:cursor-pointer">
