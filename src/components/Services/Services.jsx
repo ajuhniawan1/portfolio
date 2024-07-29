@@ -5,10 +5,12 @@ import { CiPen } from "react-icons/ci";
 import { IoFolderOpen } from "react-icons/io5";
 import { RiComputerFill, RiTailwindCssFill } from "react-icons/ri";
 import { FiDownload } from "react-icons/fi";
+import { MdTabletAndroid } from "react-icons/md";
 import { motion } from "framer-motion";
 import { slideUp } from "../Hero/Hero";
 import {
   FaVuejs,
+  FaJava,
   FaLaravel,
   FaBootstrap,
   FaReact,
@@ -54,7 +56,7 @@ const ServicesData = [
   {
     id: 3,
     title: "App Development",
-    icon: <RiComputerFill className="text-3xl" />,
+    icon: <MdTabletAndroid className="text-3xl" />,
     link: "/skills",
     desc: "Developing responsive and high-performance mobile and web applications using modern frameworks like Flutter.",
     delay: 2,
@@ -62,6 +64,18 @@ const ServicesData = [
       flutter: <SiFlutter className="text-xl" />,
       laravel: <FaLaravel className="text-xl" />,
       tailwind: <RiTailwindCssFill className="text-xl" />,
+    },
+  },
+  {
+    id: 4,
+    title: "Desktop Development",
+    icon: <RiComputerFill className="text-3xl" />,
+    link: "/skills",
+    desc: "Developed responsive and high-performance desktop applications using Java.",
+    delay: 2,
+    icons: {
+      flutter: <FaJava className="text-xl" />,
+      laravel: <SiMysql className="text-xl" />,
     },
   },
 ];
