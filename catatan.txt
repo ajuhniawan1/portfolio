@@ -1,0 +1,4 @@
+install : npm i react-icons framer-motion @emailjs/browser
+m.36.59 : npm i react-countup
+https://www.npmjs.com/package/react-countup
+https://www.emailjs.com/docs/examples/reactjs/
